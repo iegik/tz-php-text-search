@@ -1,0 +1,13 @@
+{
+  "name": "php-search",
+  "description": "Program for searching text in current directory",
+  "archive":{
+    "exclude": [ "compile", "*.phar", "composer.json" ]
+  },
+  "autoload": {
+    "psr-4": {
+      "Minicli\\": "lib/",
+      "App\\": "app/"
+    }
+  }
+}
